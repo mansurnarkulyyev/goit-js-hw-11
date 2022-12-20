@@ -7,8 +7,6 @@
     "parcel-reporter-clean-dist"
   ],
   "transformers": {
-    "gallery-cards.hbs": [
-      "parcel-transformer-hbs"
-    ]
-  }
+  "*.hbs": ["parcel-transformer-hbs"]
+}
 }
